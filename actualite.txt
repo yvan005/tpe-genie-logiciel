@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/actualite.css">
+
+<tilte></tilte>
+</head>
+<body>	
+<div id="header">
+<div id="wra">
+        <div id="header-top">                  		               
+		    <div id="sitename">	
+		    <font size=5pt color=blue >  </font>                             
+			    <a href="http://wwww.facebook.com" title="vers facebook"><img src="facebook.png" alt="logotype" width="40" height="40"></a>
+				<a href="http://www.twitter.com" title="vers twitter"> <img src="twitter.png" width="40" height="40"</a>
+				<a href="http://www.camercampus.com/ecole-normale-superieur-ens-de-maroua/" title="vers l'ecole normale superieure de Ma">  <img src="logo.png" width="40" height="40"/></a>
+				<br>
+			</div>
+		</div>
+</div> 	
+ <br>				               
+	<div id="wrap">
+<center> <marquee direction="left" BEHAVIOR="alternate" bgcolor="white" height="380"> <center><img src="KK.jpg" WIDTH="1200"></img><br><img src="IMG-20201130-WA0019.jpg" WIDTH="1200"> </img> </center> </marquee></center>
+<section id="bb"><center><marquee BEHAVIOR="alternate" WIDTH="900" BGCOLOR="Maroon" HEIGHT="45"><font size="6pt" face="arial black" color="white" direction="down"><b> BIBLIOTHEQUE DE L'ECOLE NORMALE SUPERIEURE DE MAROUA   </b></font></marquee></center></section>
+<section id="hhh"><center> <br><font size=3.5px; color="white" > <center><b><p> Mesdames et Messieurs.
+Je voudrais particulièrement exprimer mes chaleureux mots de bienvenue sur notre application web de la blibliothèque de l'école normale supérieure de Maroua, Merci d’avoir sacrifié de votre précieux temps pour être ici, Nous vous souhaitons une bonne lecture en ligne.</p></b></center> 
+<br> </font></center></section>
+	</center>
+<br>
+	</ul></center>
+	
+
+ <section id="aa">
+            <aside>
+                <center><font type="text" size="3px"><h1>LES ACTUALITES</h1>
+          
+				<div class="contenu"><p>il n'a aucune actualité disponible pour le moment, verifiez plutard</p>
+	
+
+</div>
+</font>
+    
+</p>
+    </section> 
+<br><br><a href="acceuil.html" title="acceuil"><---- vers l'acceuil </a><br><br>
+</div>
+ <br>
+<section id="hhh"><center> <br><font size=3px; color="white" ><strong>copyright@2021</strong><br>Gestion bibliothèque</font></center></section>
+</body>
+</html>
+
