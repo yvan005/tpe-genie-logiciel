@@ -1,0 +1,81 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/acceuil.css">
+
+<tilte></tilte>
+</head>
+<body lang="FR">	
+<div id="header">
+<div id="wra">
+        <div id="header-top">                  		               
+		    <div id="sitename">	
+		    <font size=5pt color=blue >  </font>                             
+			    <a href="http://wwww.facebook.com" title="vers facebook"><img src="facebook.png" alt="logotype" width="40" height="40"></a>
+				<a href="http://www.twitter.com" title="vers twitter"> <img src="twitter.png" width="40" height="40"</a>
+				<a href="http://www.camercampus.com/ecole-normale-superieur-ens-de-maroua/" title="vers l'ecole normale superieure de Ma">  <img src="logo.png" width="40" height="40"/></a>
+				<br>
+			</div>
+		</div>
+</div> 	
+ <br>				               
+	<div id="wrap">
+<center> <marquee direction="left" BEHAVIOR="alternate" bgcolor="white" height="380"> <center><img src="KK.jpg" WIDTH="1200"></img><br><img src="IMG-20201130-WA0019.jpg" WIDTH="1200"> </img> </center> </marquee></center>
+<section id="bb"><center><marquee BEHAVIOR="alternate" WIDTH="900" BGCOLOR="Maroon" HEIGHT="45"><font size="6pt" face="arial black" color="white" direction="down"><b> BIBLIOTHEQUE DE L'ECOLE NORMALE SUPERIEURE DE MAROUA   </b></font></marquee></center></section>
+<section id="hhh"><center> <br><font size=3.5px; color="white" > <center><b><p> Mesdames et Messieurs.
+Je voudrais particulièrement exprimer mes chaleureux mots de bienvenue sur notre application web de la blibliothèque de l'école normale supérieure de Maroua, Merci d’avoir sacrifié de votre précieux temps pour être ici, Nous vous souhaitons une bonne lecture en ligne.</p></b></center> 
+<br> </font></center></section>
+
+	 
+
+	<div  id="kaigo" > <center>
+	<ul>
+		<br>
+
+		<li><a href="presentation.html">PRESENTATION</a></li>
+		<li><a href="Membres.html">MEMBRES</a></li>
+		<li><a href="emprunt.html"> EMPRUNTS</a></li>
+		<li><a href="ouvrages.html"> OUVRAGES</a></li>
+		<li><a href="Personnels.html"> PERSONNELS</a></li>
+		<li><a href="actualite.html">ACTUALITES</a></li>
+
+		<div id="kali"><img src="Books.Gif" width="150px" height="150px"/></div>
+		
+		
+		
+	
+<br>
+	</ul></center>
+	 
+
+	
+
+</div>
+
+      <section id="aa">
+            <aside>
+                <center><font type="text" size="3px"><h2>Centre de Documentation de l'ENS</h2></font></center>
+                <p><img src="IMG-20201130-WA0005.jpg" width="700px" height="400px"/>
+				<div class="contenu" id='th'  ><p>Le Centre de Documentation est un Centre spécialisé appartenant
+à l’Ecole Normale supérieure de Maroua, il a pour mission principale, de répondre aux besoins documentaires
+ et informationnels du personnel enseignant, non enseignant et des étudiants de l’université de Maroua
+ en générale et de l’école normale supérieure en particulier. En d’autres termes, il joue le rôle de bibliothèque
+ universitaire et a la responsabilité d’approvisionner la communauté universitaire en matériel pédagogique, 
+ de conserver ce matériel, de le rendre disponible puis d’en assurer la circulation. </p>
+
+<p>A l’heure actuelle, le Centre dispose de 14.000 livres répartis dans l’ensemble des dix rayons par discipline (littérature, informatique, philosophie, sciences sociales…), 200 documents sur supports numériques (CD, DVD, bande magnétique). Il est à noter que les mémoires et thèses d’étudiants déposés au Centre sont environ 1.500 volumes. Le Centre est également abonné a des journaux scientifiques (13 revues au total).
+	Le renouvellement des livres : Chaque fin d’année les personnels du centre de documentation font l’inventaire des livres disparus, abîmés, moins intéressant répare les documents abimés et remplace les autres. 
+</p>
+<p><b> Conditions
+Reçu de paiement des droits universitaires, Carte d’Identité Nationale ou carte d’Etudiant, 
+Nécessaire pour travailler, Consignation du sac sans argent ni objets précieux. Le sac est repris une seule fois à la sortie.
+</b></p>
+</div></center>
+</p></font>
+    </section> 
+<br> 
+</div>
+ <br>
+<section id="hhh1"><center> <br><font size=3px; color="white" ><strong>copyright@2021</strong><br>Gestion bibliothèque</font></center></section></footer>
+</body>
+</html>
+
