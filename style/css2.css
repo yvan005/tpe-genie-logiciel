@@ -1,0 +1,66 @@
+body{
+	background-color:#757575;
+	font-family:VERDANA, sans serif;
+	font-size:100%;
+		}
+		
+form{
+	background-color:#E9E9E9;
+	padding:8px;
+	border : 1px solid #757575;
+		}
+		
+fieldset{
+	background-color:#757575;
+	padding:0px 20px 20px 20px;
+	border:1px solid #E9E9E9;
+		}
+
+legend{ 
+		background-color:#E9E9E9;
+		color:rgba(0, 0, 0, 0.67);
+		font-family:arial;
+		font-weight:bold;
+		height:40px;
+		text-align:center;
+		margin-bottom:0px;
+		margin-left:30px;
+		border:1px solid #757575;
+		}
+		
+input,textarea,select{
+		background-color:#E9E9E9;
+		padding:4px;
+		border : 2px solid #757575;
+		border-radius:8px;
+		margin:10px;
+		box-shadow: 1px 2px 2px #757575 inset;
+		}
+input[type=submit]{
+		width:100px;
+		margin-left:5px;
+		box-shadow: 1px 4px 4px 4px #757575;
+		cursor:pointer;
+		background-color:green;
+	}
+input[type=reset]{
+		width:100px;
+		margin-left:5px;
+		box-shadow: 1px 4px 4px 4px #757575;
+		cursor:pointer;
+		background-color:red;
+	}
+		
+input[type=submit]:hover,input[type=reset]:hover{
+		background-color:#757575;
+		border:2px solid #E9E9E9;
+		}
+		
+input[type=checkbox],input[type=radio],select{
+		cursor:pointer;
+		}
+th{
+
+font-size:150%;
+		}
+		

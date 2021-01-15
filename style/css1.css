@@ -1,0 +1,252 @@
+/* GENERALITE */
+*{
+	padding:0px;
+	margin:0px;
+}
+.first,.second{
+	display: inline-block;
+	
+}
+#hh input{
+	width: 300px;height: 50px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-size: 20px 
+}
+#hh button{
+	background-color: #a77b7c;
+	border: 1px solid black;
+	color: #fff;
+	width: 90px;
+	height: 30px;
+	border-radius: 2px;
+	padding: 3px;
+	font-size: 15px
+}
+#hh {
+	margin-left: 30px
+
+}
+.second{
+	margin-left: 640px;
+}
+marquee{
+animation: animer 3s infinite;
+}
+@keyframes animer{
+		20%{
+			color: blue;
+		}
+	
+		30%{
+			color: white;
+		}
+		40%{
+			color: orange;
+		}
+		50%{
+			color: #ddd;
+		}
+		80%{
+			color: orange;
+		}
+		95%{	
+			color: skyblue;
+		}
+	}
+			body{	
+				background-color:auto;
+				background-repeat:red;
+				margin-left: auto;
+                margin-right: auto;
+				font-style: normal;
+                font-variant: normal;
+                font-weight: normal;
+                font-size: 100%;
+                line-height: normal;
+                font-size-adjust: none;
+                font-stretch: normal;
+			}
+			 
+			 
+		h1{
+			color:#4d4d4d;
+			text-align:center;
+			text-transform:uppercase;
+			
+		}
+		
+		h2{
+			color:blue;
+			text-align:center;
+			text-transform:uppercase;
+			
+		}
+		
+		h3{
+			color:magenta;
+			text-align:center;
+			text-transform:uppercase;
+			
+		}
+			#master { 	
+			margin-left: auto; /* Permet de centrer le site */
+			margin-right:auto; /* Permet de centrer le site */
+			width: 1210px;/* largeur de master*/
+			background-color:#800000;
+			border: 1px solid #000000;				
+			padding-top:0px;
+			font-family:Times New Roman;
+			color:0;
+			text-align:justify;
+			
+			    font-style: normal;
+                font-variant: normal;
+                font-weight: normal;
+                font-size: 100%;
+                line-height: normal;
+                font-size-adjust: none;
+                font-stretch: normal;
+			} 
+			#entete img{
+				border: ;
+			}
+			  
+			 #menu { 
+				/* Bloc du menu */ 
+				float:left; 
+				background-color:#a77b7c;
+				Height:auto;
+				width:16%;
+				
+				
+			} 
+			#menu_barre dl dt dd ul, li {
+				  margin: 0;
+				  padding: 0;
+				  list-style-type: none;				     				  
+				  }
+			
+			#racoursi{ 
+				background-color:;
+				} 
+			 
+			#menu a {  			
+				text-decoration:none; 
+			} 
+			#menu a:hover { 
+				font-family:Times New Roman; 
+				font-size:17px; 
+				color:white; 
+				text-decoration:underline; 
+			} 
+			
+			#contenu { 
+				/* Bloc du contenu */ 
+				margin:0; 
+				margin-left:200px; 
+				height:auto; 
+				border: 1px solid white;
+                background:#dfdfdf;				
+			} 
+			 #racoursi p  { 
+				margin:21px;  
+				padding-top:0px;
+				/* Marge gauche de 1em */ 
+				} 
+				#racoursi a  {   
+				color:white;
+                font-family:Times New Roman;
+                				
+				} 
+				
+			#pied { 
+				/* Bloc du pied de page */ 
+				clear:both; 
+				margin:0; 
+				height:35px; 				
+               background:Maroon;				
+			} 
+					
+			#menu_barre dl {
+			  float: left;
+			  width: 151px;
+			   height: 120%;
+			  background:#a77b7c;
+			 
+			  
+			}
+			#menu_barre dt {
+			  border: 2px solid gray;
+			  margin: 10px;
+			  cursor: pointer;
+			  background:#dfdfdf;
+			  text-align: center;
+			  font-weight: bold;
+			  
+			}
+			#menu_barre dd {
+			  border: 1px solid gray;
+			  display: none;
+			  font-size:16px;
+			  
+			}
+			#menu_barre li {
+			  background: #a77b7c;
+			  text-align:0%;
+			  
+			  
+			}
+			#menu_barre li a, #menu_barre dt a {
+			  border: none;
+			  color: #000000;
+			  text-decoration: none;
+			  display: block;
+			  height: 100%;
+			  
+			}
+			#menu_barre li a:hover, #menu_barre li a:focus, #menu_barre dt a:hover, #menu_barre dt a:focus {
+			  background: #eeeeee none repeat scroll 0% 50%;
+			}
+			#menu_barre {
+  text-align:left;
+  z-index: 200%;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 0px;
+  margin-left: 152px;
+  
+} 
+
+td {
+text-align:center;
+	font-size:20px;
+	/* border-radius:50px 50px; */
+}
+
+th{
+/* border-radius:50px 50px;*/
+	font-size:14px;
+	}
+	
+	#rotation{
+    writing-mode: sideways-lr;
+    filter: flipv fliph;
+    white-space: rowrap;
+    
+}
+.paire{
+    background-color:orange;
+}
+thead{
+    background-color:#808080;
+}
+j#jours{
+	border: 2px solid black;
+}
+#PAUSE{
+	background-color:#ADE;
+}
+.E{
+    text-transform: uppercase;
+	text-align: center;}

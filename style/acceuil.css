@@ -1,0 +1,173 @@
+a
+		#menu { height:40px; WIDTH:230px; float="left"; background-color:#00FFFF; border-radius: 15px; box-shadow: 6px 6px 6px black; text-shadow: 2px 2px 4px black}
+		#ada{height:40px; WIDTH:230px; float="left"; background-color:#00FFFF; border-radius: 15px; box-shadow: 6px 6px 6px black; text-shadow: 2px 2px 4px black}
+		#men { height:25px; WIDTH:120px; float="left"; background-color:#FFFF00; border-radius: 15px; box-shadow: 2px 2px 2px black; text-shadow: 2px 2px 4px red}
+		#me { height:25px; WIDTH:150px; float="left"; background-color:#3299CC; border-radius: 15px; box-shadow: 2px 2px 2px black; text-shadow: 2px 2px 4px green}
+		#kali{height:200px; WIDTH:300px; float="left"; background-color:#800000; border-radius: 15px; box-shadow: 6px 6px 6px black; text-shadow: 2px 2px 4px black; text-align:center;}
+		#tot{ height:40px; WIDTH:230px; float="left"; background-color:#00FFFF; border-radius: 15px; box-shadow: 6px 6px 6px black; text-shadow: 2px 2px 4px black}
+		#wrap {float:100px;
+
+
+    width: 1200px;
+    height:auto;
+    background: transparent;
+        background-color:#E6E8FA;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x:0%;
+        background-position-y:0%;
+        background-size:auto; 
+        border-radius: 15px;
+    margin:none;
+    border: 0px solid #000;
+    box-shadow: 2px 2px 10px #ADEAEA;
+
+    }
+#wra{float:100px;
+
+
+    width: 1200px;
+    background: transparent;
+        background-color:#800000;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-position-x:0%;
+        background-position-y:0%;
+        background-size:auto; 
+        border-radius: 15px;
+    margin:none;
+    border: 0px solid #000;
+    box-shadow: 2px 2px 10px #ADEAEA;
+
+    }
+
+
+body
+{
+    margin: 30px ;
+    padding: 30px ;
+    text-align: left;
+    background:#800000 ;
+    font-size: 13px;
+    color:#000;
+    font-family: tahoma, arial , sans-serif;
+    height: auto;
+
+}
+#aa
+{	
+    margin-left: 110px;
+    margin-right:110px;
+    
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    z-index:2;
+    position:relative;
+    right:auto ;
+    bottom:auto;
+    top:auto;
+    left:auto;
+    z-index:1;
+   
+     
+}
+#bb
+{position: absolute;
+    right: ;
+    bottom:auto;
+    top:10cm;
+    left:8.5cm;
+    z-index:1;
+    border: 0px solid  blue;
+		
+		opacity:.6;
+}
+#mat {
+    width: 7cm;
+    margin: 0;
+    padding: 3px 10px;
+    font-size: 14px;
+    color: red;
+    border: 4px solid red;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    line-height: 25px;
+    list-style: none;}
+    ul{
+			margin:0px;
+			padding:0px;
+			list-style:none;
+		}
+	ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:160px;
+ background-color:#800000;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:10px;
+ border:8px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#FF0000;
+ border-color:#696969 #00FFFF #DCDCDC #696969;
+ } 
+	#hh{
+		border: 0px solid  blue;
+		height:1.5cm;
+		border-radius:15px 15px 15px 15px;
+		background-color:black;
+		opacity:.5;
+
+	}
+#hhh{
+		border: 0px solid  blue;
+		height:2cm;
+		width:1200px;
+		border-radius:15px 15px 15px 15px;
+		background-color:#800000;
+		opacity:.8;
+		font-color:black;
+
+	}
+    #hhh1{
+        border: 0px solid  blue;
+        height:2cm;
+        width:1200px;
+        border-radius:15px 15px 15px 15px;
+        background-color:#800000;
+        opacity:.5;
+        font-color:white;
+
+    }
+#th{
+	height:auto;
+	width:18.5cm;
+	text-align:justify;
+}
+ {  float="right: "; background-color:#800000; border-radius: 15px; box-shadow: 6px 6px 6px black; text-shadow: 2px 2px 4px black; text-align:center;
+
+}
+
+
