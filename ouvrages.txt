@@ -1,0 +1,186 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<title>OUVRAGES</title> 
+		
+		<link rel="stylesheet" href="style/css1.css" />		
+        <script language='javascript' src="../js/script.js"></script>	
+		
+	</head> 
+	<body> 
+		<div id="master">
+			
+			
+			<br>
+			<br>
+			
+			<div id="contenu">
+			
+			  <center>
+			  <div class="admis">
+	  
+		<br>
+
+<?php
+
+//envoi du code html du debut de page
+
+echo '
+
+<html>
+
+ <head>
+
+ <meta charset="UTF-8">
+
+ <title>Livres</title>
+
+ </head>
+
+ <body>
+
+<h1>Gestion des livres</h1>
+
+<br><br><a href="acceuil.html" title="acceuil"><---- vers l'acceuil </a><br><br>
+<p>Ici, on enregistre tous les livres disponibles</p>
+
+<table border="20" width="1000px"  >
+
+<thead>
+
+<tr>
+
+<th>Titre</th>
+
+<th>Auteur</th>
+
+<th>Année d\'édition</th>
+
+<th>Description</th>
+
+</tr>
+<tr>
+
+<th> Systeme d'exploitation</th>
+
+<th> François bonnet</th>
+
+<th>2007</th>
+
+<th>
+Tout sur le systeme d'exploitation</th>
+
+</tr>
+<tr>
+
+<th> La logique </th>
+
+<th>  </th>
+
+<th> </th>
+
+<th>
+ </th>
+
+</tr>
+<tr>
+
+<th> Biologie </th>
+
+<th>  </th>
+
+<th> </th>
+
+<th>
+ </th>
+
+</tr>
+<tr>
+
+<th>Tout sur le php  </th>
+
+<th>  </th>
+
+<th> </th>
+
+<th>
+ </th>
+
+</tr>
+<tr>
+
+<th> real analysis </th>
+
+<th>  </th>
+
+<th> </th>
+
+<th>
+ </th>
+
+</tr>
+<tr>
+
+<th> Geometrie </th>
+
+<th>  </th>
+
+<th> </th>
+
+<th>
+ </th>
+
+</tr>
+</thead>
+
+<tbody>
+
+ 
+
+</tbody>
+
+</table>
+
+ </body>
+
+</html> <br><br>
+
+	<div  id="kal" > <center>
+	<ul>
+		<br>
+
+		<li><a href="presenta.html"> <H1>Supprimer un livre</H1>  </a></li>
+		<li><a href="bibliothécae.html"> <H1>Ajouter un livre</H1></a> </li>
+		<li><a href="emprun.html"> <H1>Modifier un livre</H1></a></li>
+		<li><a href="emprun.html"> <H1>Consulter un livre</H1></a></li>
+		<li><a href="emprun.html"> <H1>Consulter  Les nouveaux livres</H1></a></li>
+		<li><a href="emprun.html"> <H1>Reserver un livre</H1></a></li>
+		</ul></center></div>
+		<br>
+
+<h3><i> <mark>LES DIFFERENTS OUVRAGES DE L'ENSM</mark></i></div></h3><br><br>
+
+ 
+	
+	 <center>
+	   <img width="900" height="600" src="image/Z.jpg">
+	 <img width="1000" height="600" src="image/Z4.jpg">
+	 <img width="1000" height="600" src="image/Z1.jpg">
+	 <img width="1000" height="600" src="image/Z2.jpg">
+	 <img width="1000" height="600" src="image/Z3.jpg"></center>
+
+		 
+	
+	 
+
+		</div>
+			  </center>
+
+               
+			</div>
+			<div id="pied">
+					<center>  <i> </i> copyright@2021. Gestion bibliothèque </center>
+			</div>
+		</div> 
+	</body> 
+</html>
