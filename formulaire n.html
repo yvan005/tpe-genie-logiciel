@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style/formul.css">
+	
+	<title> formulaire</title>
+
+</head>
+<body img src="back.jpg">
+<br>
+<div id="wrapp" >
+<br>
+		<center><h2>Formulaire d'inscription sur le site</h2></center>
+<form method="post" action="donne.php">
+  <p><i>Completez le formulaire. Les champs marques par </i><em>*</em> sont <em>obligatoires</em></p>
+  <fieldset>
+    <legend>Object</legend>
+      <p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Sujet : </span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><select name="sujet">
+<option>Branchement au réseau
+</option><option>Compte
+</option><option>Courriel
+</option><option>Dépannage du logiciel
+</option><option>Dépannage du matériel
+</option><option>Information
+</option><option>Installation de logiciel
+</option><option>Installation de matériel
+</option><option>Autre
+</option></select></span></p>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Je suis : </span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><select name="jesuis">
+<option>Un membre du personnel enseignant
+</option><option>Un membre du personnel de soutien
+</option><option>Un étudiant ou une étudiante
+</option><option>Autre :
+</option></select></span></p>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Tapez une description
+en incluant le plus de détail possible:<br>
+</span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"> <label for="comments"><em>*</em></label>
+      <textarea id="comment"></textarea>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Quel énoncé décrit le
+mieux votre situation ?  <em>*</em></span></p>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><input name="situation" value="Je suis capable de continuer mon travail." type="radio"></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Je suis capable de continuer mon travail. <br>
+</span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><input name="situation" value="Je ne peux pas continuer mon travail et il n'y a aucune alternative." type="radio"></span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Je ne peux pas continuer mon travail et il n'y a aucune alternative.</span></p>
+
+  </fieldset>
+  <fieldset>
+    <legend>Information personnelles</legend>
+      <label for="email">Email <em>*</em></label>
+      <input name="email" placeholder="email@domain.com" required=""  type="email"><br><br>
+      <label for="prenom">prenom </label>
+      <input name="prenom" placeholder="Votre pernom" autofocus="" required=""><br><br>
+      <label for="nom">Nom </label>
+      <input name="nom" placeholder="Votre nom" autofocus="" required=""><br><br>
+
+      <label for="telephone">Num. Tel<em>*</em></label>
+      <input name="telephone" placeholder="(+237)XXX-XXX-XXX" type="tel"><br><br>
+     
+      <label for="age">Age<em>*</em></label>
+      <input name="age" placeholder="xx" required="" type="number"><br><br>
+      <label for="sexe">Sexe</label>
+      <select name="sexe">
+        <option value="F" name="sexe">Femme</option>
+        <option value="H" name="sexe">Homme</option>
+      </select><br><br>
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Autres</legend>
+   
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Autre numéro de
+téléphone: (optionel) </span><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><input name="telephone2" type="text"></span></p>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Département ou Service:
+</span><span style="font-size:12.0pt;line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;"><select name="sujet2">
+<option>Branchement au réseau
+</option><option>Compte
+</option><option>Courriel
+</option><option>Dépannage du logiciel
+</option><option>Dépannage du matériel
+</option><option>Information
+</option><option>Installation de logiciel
+</option><option>Installation de matériel
+</option><option>Autre
+</option></select></span></p>
+ <p class=MsoNormal style='margin-left:18.0pt'><span style='font-size:12.0pt;
+line-height:115%;font-family:"Palatino Linotype","serif"'> Numéro de pièce: <em>*</em> </span><span
+style='font-size:12.0pt;line-height:115%;font-family:"Palatino Linotype","serif"'><INPUT TYPE="text" NAME="piece"></span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+  </fieldset>
+<fieldset>
+    <legend>Compte</legend>
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">votre nom d'utilisateur <em>*</em>  </span><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">
+<input placeholder="Nom D'utilisateur" title="veuillez entrer votre identifiant" type="text" name="loggin">
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Choisir votrer mot de passe <em>*</em> </span><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">
+<input placeholder="Mot de Passe" tilte="Votre Mot De Passe" type="password" name="pass">
+<p class="MsoNormal" style="margin-left:18.0pt"><span style="font-size:12.0pt;
+line-height:115%;font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">confirmer votre mot de passe <em>*</em> </span><span style="font-size:12.0pt;line-height:115%;
+font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">
+<input placeholder="Mot de Passe" tilte="Votre Mot De Passe" type="password" name="pass2">
+  </fieldset>
+
+  <center><p><input value="Enregistrer" type="submit"> <input type="reset" title="Effacer"
+			value="Effacer"> <center><div id="ss"> <font color="red" ><a href="acceuil.html">je suis deja inscrit</a></font></div></center></p></ center>
+			
+</form>
+	</div>
+
+</body>
+</html>
